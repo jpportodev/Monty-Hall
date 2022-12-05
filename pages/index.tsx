@@ -16,7 +16,7 @@ export default function Formulario() {
         <h1>Monty Hall</h1>
       </Cartao>
       <Cartao>
-        <EntradaNumerica text="Quantidade de Portas :"
+        <EntradaNumerica text="Nº Porta Premiada:"
         value={qtdePortas}
         onChange={novaQtde => setQtdePortas(novaQtde)}/>
       </Cartao>
